@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Haqqqımızda</title>
+    <title>Xəbərlər</title>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!--Font awesome  -->
@@ -14,8 +14,12 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <!-- Aos -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-   <!-- Favicon -->
-   <link rel="icon" type="image/png" href="./images/Group_8-removebg-preview.png">
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+     <!-- Favicon -->
+
+     <link rel="icon" type="image/png" href="./images/icon/favicon.ico">
+     <link rel="manifest" href="/site.webmanifest">
     <!-- Style -->
     <link rel="stylesheet" href="./sass/style.css">
 </head>
@@ -25,7 +29,7 @@
         <i class="fa-solid fa-chevron-up"></i>
     </div>
     <!--Header start  -->
-     <header class="general-header  general-header-2">
+    <header class="general-header general-header-2">
 
         <div class="header-top">
             <div class="container">
@@ -56,24 +60,23 @@
 
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-2 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <a href="./index.html" class="header-logo">
                             <img src="./images/logo2/Group 8.png" alt="logo_img">
                         </a>
 
                     </div>
-                    <div class="col-lg-10 d-flex justify-content-end p-0">
+                    <div class="col-lg-9">
                         <nav class="nav">
                             <ul class="nav-list">
-                                <li class="nav-item"><a href="./about.html" class="nav-link active">Haqqımızda</a></li>
+                                <li class="nav-item"><a href="./about.html" class="nav-link">Haqqımızda</a></li>
                                 <li class="nav-item"><a href="./production.html" class="nav-link">İstehsal</a></li>
                                 <li class="nav-item"><a href="./services.html" class="nav-link">Xidmətlərimiz</a>
                                 </li>
                                 <li class="nav-item"><a href="./product.html" class="nav-link">Məhsullar</a>
                                 </li>
-                                <li class="nav-item"><a href="./partners.html" class="nav-link">Partnyorlar</a></li>
-                               
-                                <li class="nav-item"><a href="./gallery.html" class="nav-link">Media Mərkəzi</a></li>
+                                <li class="nav-item"><a href="./partners.html" class="nav-link ">Partnyorlar</a></li>
+                             <li class="nav-item"><a href="./gallery.html" class="nav-link">Media Mərkəzi</a></li>
                                 <li class="nav-item"><a href="./contact.html" class="nav-link">Əlaqə</a></li>
                             </ul>
                         </nav>
@@ -84,15 +87,14 @@
 
     </header>
 
-   
+    <!--Header end  -->
     <header class="header-mobile">
 
         <div class="header-mobile-top">
             <div class="container-fluid">
                 <div class="row align-items-center justify-content-between">
-                    <div class="col-6 d-flex align-items-center">
+                    <div class="col-6">
                         <div class="nav-menu-btn"><i class="fa-solid fa-bars"></i></div>
-                        <div class="nav-menu-search " data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-magnifying-glass"></i></div>
                     </div>
 
                     <div class="col-6 d-flex justify-content-end">
@@ -108,11 +110,15 @@
                 </div>
             </div>
         </div>
-          
+        <div class="container ">
+            <div class="row">
+                <div class="col-12 text-center">
                     <div class="header-mobile-menu">
-                        <div class="header-mobile-top d-flex align-items-center justify-content-between">
-                            <a href="./index.html" class="logo"><img src="./images/logo2/Group 8.png" alt=""></a>
-                            <div class="close-menu"><i class="fas fa-times"></i></div>
+                        <div class="header-search">
+                            <form class="search-form">
+                                <input type="text" placeholder="Axtar...">
+                                <button><i class="fas fa-search"></i></button>
+                            </form>
                         </div>
                         <nav class="nav">
                             <ul class="nav-list">
@@ -124,32 +130,15 @@
                                 </li>
                                 <li class="nav-item"><a href="./partners.html" class="nav-link">Partnyorlar</a></li>
                                 <li class="nav-item"><a href="./gallery.html" class="nav-link">Media Mərkəzi</a></li>
+                                <li class="nav-item"><a href="./blog_inner.html" class="nav-link">Xəbərlər</a></li>
                                 <li class="nav-item"><a href="./contact.html" class="nav-link">Əlaqə</a></li>
                             </ul>
                         </nav>
                     </div>
-              
-     </header>
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-           
-            
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            
-            <div class="modal-body">
-                <div class="header-search-mobile">
-                    <form class="search-form">
-                        <input type="text" placeholder="Axtar...">
-                        <button><i class="fas fa-search"></i></button>
-                    </form>
                 </div>
             </div>
-           
-          </div>
         </div>
-      </div>
-       <!--Header end  -->
+    </header>
     <!-- Banner Section start -->
     <section class="banner-section banner-section-2">
         <div class="container-fluid p-0">
@@ -168,97 +157,69 @@
         </div>
     </section>
     <!-- Banner Section end -->
-    <!-- About section start-->
-    <section class="about-section about-section-2 mb-5">
+    <!-- Section inner start -->
+    <section class="section-inner">
         <div class="container">
-            <div class="row ">
-                <div class="col-12 d-flex " data-aos="fade-right">
+            <div class="row mb-5">
+                <div class="col-12 d-flex justify-content-start">
                     <div class="section-title">
-                        <h5 class="title">Haqqımızda </h5>
+                        <h5 class="title">XƏBƏRLƏR </h5>
                         <ul class="home-link">
                             <li><a href="./index.html">Ana Səhifə </a></li>
                             <li>></li>
-                            <li><a href="./about.html">Haqqımızda</a></li>
-                            <li>></li>
-                            <li class="active-class">Şirkətin tarixi</li>
+                            <li><a href="./blog_inner.html">Xəbərlər</a></li>
+                            
+                        </ul> 
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-12 mb-4">
+                    <div class="box" data-aos="fade-right">
+
+                        <div class="img">
+                            <img src="./images/chad-montano-gE28aTnlqJA-unsplash.png"
+                                alt="box-img">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-8 col-12">
+                    <div class="info-content" data-aos="fade-left">
+                        <h5 class="text-info-title">Lorem ipsum dolor sit amet.</h5>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Hyatt Regency
+                            </li>
+                            <li>
+                                <i class="fas fa-calendar"></i>
+                                05.05.2022
+                            </li>
                         </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 px-5">
-                    <ul class="sidebar-menu">
-                        <li class="item active"  data-name="company_history">Şirkətin tarixi</li>
-                        <li class="item" data-name="company_team_structur">İdarə heyəti & Struktur</li>
-                        <li class="item">Sosial Məsuliyyət</li>
-                        <li class="item">İnsan Resursları</li>
-                    </ul>
-                </div>
-                <div class="col-lg-9 category show company_history" data-name="company_history">
-                    <div class="row">
-                        <div class="col-lg-8" data-aos="fade-left">
-                            <div class="info-text">
-                                <p><span class="fs-4 text-danger">1976</span>
-                                    -cı ildən təcrübəmiz təminatımızdır! Lorem Ipsum is simply dummy text of the
-                                    printing and
-                                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
-                                    since the
-                                    1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book. It has survived not only five centuries, but also the leap into
-                                    electronic
-                                    typesetting, remaining essentially unchanged. It was
-                                </p>
-                                <p> <span class="fs-4 text-danger"> 1960</span> s with the release of Letraset sheets containing Lorem Ipsum
-                                    passages,
-                                    and more recently with desktop publishing software like Aldus PageMaker including
-                                    versions
-                                    of Lorem Ipsum.</p>
-                            </div>
-
-                        </div>
-                        <div class="col-lg-2 my-4" data-aos="fade-up">
-                            <div class="right-image">
-                                <img src="./images/logo2/Group 616.png" alt="">
-                            </div>
+                        <div class="text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam illum harum molestias,
+                                quam explicabo, reprehenderit ea eius doloribus dicta eos labore minima dolor natus
+                                quisquam excepturi? Officiis dolor eaque molestiae voluptatibus ea fuga, doloribus ipsam
+                                vel commodi magni dolorem odit ipsum impedit a quaerat consequatur corporis illo iste
+                                enim aut, tenetur error unde consequuntur! Quasi, rem quia suscipit facere voluptatum
+                                voluptas iusto laborum minima. Assumenda repellendus reprehenderit aliquam fuga quas.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-9 category" data-name="company_team_structur">
-                    <div class="row">
-                        <div class="col-lg-4 col-sm-6 col-12 mb-4" data-aos="fade-up">
-                            <div class="team-info">
-                                <img src="./images/logo2/team-member-3.png" alt="">
-                                <div class="overlay"></div>
-                                <div class="text">
-
-                                    <div class="name">Ali Rüstamov</div>
-                                    <div class="job">Şöbə Müdiri</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 col-12 mb-4 " data-aos="fade-up">
-                            <div class="team-info">
-                                <img src="./images/logo2/team-member-3.png" alt="">
-                                <div class="overlay"></div>
-                                <div class="text">
-                                    <div class="name">Ali Rüstamov</div>
-                                    <div class="job">Şöbə Müdiri</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 col-12 mb-4 " data-aos="fade-up">
-                            <div class="team-info">
-                                <img src="./images/logo2/team-member-3.png" alt="">
-                                <div class="overlay"></div>
-                                <div class="text">
-                                    <div class="name">Ali Rüstamov</div>
-                                    <div class="job">Şöbə Müdiri</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+<div class="col-12 mt-3 ">
+    <div class="info-content">
+        <div class="text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, eaque ratione odio dicta officia veniam laborum exercitationem alias nesciunt, culpa quidem expedita ea officiis optio natus quis labore esse sunt quas aliquam et fugit suscipit! Sequi, magnam excepturi? Reiciendis amet voluptatem, quae totam at similique temporibus harum beatae id magni fugit rerum iste quos omnis velit minus dolore sunt voluptatibus tempore. Facere repudiandae corrupti quibusdam sapiente inventore, veniam, fuga ut corporis explicabo totam quam beatae! Delectus vero dolor sapiente vitae laboriosam quasi dolore doloribus commodi nesciunt eius, quae illo saepe omnis deserunt recusandae dolores ea eaque reprehenderit quod! Illum non accusantium ipsam distinctio voluptas odit nemo vitae deleniti eaque quo mollitia sunt velit, maxime, sit sequi facilis enim quaerat qui consectetur quos. Totam?</p>
+        </div>
+    </div>
+</div>
             </div>
+        </div>
     </section>
+    <!-- Section inner end -->
+  
+  
     <footer class="general-footer">
         <div class="container">
             <div class="footer-top">
@@ -274,7 +235,7 @@
                                 <li><a href="./partners.html">Partnyorlar</a></li>
                                 <li><a href="./gallery.html">Media Mərkəzi</a></li>
                                 <li><a href="./contact.html">Əlaqə</a></li>
-
+    
                             </ul>
                         </div>
                     </div>
@@ -306,7 +267,7 @@
                   
                 </div>
             </div>
-
+    
             <div class="footer-bottom">
                 <div class="row">
                     <div class="col-lg-6">© Copyright 2022 by <a href="https://proton.az/" target="_blank">Proton.az</a>
@@ -315,14 +276,18 @@
             </div>
         </div>
     </footer>
-<!-- Jquery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Owl carousel -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="./js/script.js"></script>
+
+     <!-- Jquery -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <!-- Bootstrap -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+     <!-- Owl carousel -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+     <!-- Aos -->
+     <!-- Fancybox -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script src="./js/script.js"></script>
 </body>
 
 </html>
