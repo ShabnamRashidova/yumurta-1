@@ -386,7 +386,7 @@ header {
             position: absolute;
             top: 80px;
             left: 20px;
-            z-index: 1200;
+            z-index: 99;
             width: 300px;
             transition: $transition;
             background-color: rgb(3, 3, 0,0.8);
@@ -2196,7 +2196,11 @@ transform: translateX(-400px);
         }
 
     }
-
+.about-page-section{
+    .right-image{
+        @include center;
+    }
+}
     .contact-form-container {
         .contact-form {
             .contact-form-top {

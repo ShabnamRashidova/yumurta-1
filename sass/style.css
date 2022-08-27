@@ -294,7 +294,7 @@ header.header-mobile .header-mobile-top .search-content .search-wrapper .search-
   position: absolute;
   top: 80px;
   left: 20px;
-  z-index: 1200;
+  z-index: 99;
   width: 300px;
   transition: 0.4s ease all;
   background-color: rgba(3, 3, 0, 0.8);
@@ -1677,6 +1677,11 @@ header.header-mobile .header-mobile-menu .nav .nav-list li a:hover {
   }
   .banner-section .banner-carousel .slider-item .content .text {
     font-size: 15px;
+  }
+  .about-page-section .right-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .contact-form-container .contact-form .contact-form-top {
     padding: 10px;
