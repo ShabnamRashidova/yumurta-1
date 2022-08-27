@@ -23,9 +23,9 @@
 </head>
 
 <body>
-    <div class="scroll-btn">
+    <!-- <div class="scroll-btn">
         <i class="fa-solid fa-chevron-up"></i>
-    </div>
+    </div> -->
     <!--Header start  -->
     <header class="general-header  general-header-2">
 
@@ -33,12 +33,17 @@
             <div class="container">
                 <div class="row justify-content-end align-items-center">
                     <div class="col-4 col-xl-3 d-flex justify-content-end">
-                        <ul class="header-social-list">
-                            <li><a href="" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                            <li><a href="" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                        <ul class="social-list">
+                            <li><a style="background-color: #3F5793;" href=""><i
+                                        class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a style="background-color: #0079C4;" href=""><i
+                                        class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a style="background-color: #01B945;" href=""><i
+                                        class="fa-brands fa-whatsapp"></i></a></li>
+                            <li><a style="background-color: #C91A1F;" href=""><i
+                                        class="fa-brands fa-youtube"></i></a></li>
+                            <li><a style="background: linear-gradient(135deg, #4c5ad1 0%, #ff3756 42%, #ff3e37 60%, #ffd42b 100%);"
+                                    href=""><i class="fa-brands fa-instagram"></i></a></li>
                         </ul>
                     </div>
                     <div class="col-3 col-xl-2">
@@ -93,16 +98,28 @@
                 <div class="row align-items-center justify-content-between">
                     <div class="col-6 d-flex align-items-center">
                         <div class="nav-menu-btn"><i class="fa-solid fa-bars"></i></div>
-                        <div class="nav-menu-search " data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <div class="search-content">
+                            <button class="nav-menu-search "><i
+                                class="fa-solid fa-magnifying-glass"></i></button>
+    <div class="search-wrapper">
+        <form action="" class="search-form"><input type="text" placeholder="Axtarış...">
+            <button><i class="fas fa-search"></i></button></form>
+    </div>
+                           </div>
                     </div>
 
                     <div class="col-6 d-flex justify-content-end">
-                        <ul class="header-social-list">
-                            <li><a href="" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                            <li><a href="" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                        <ul class="social-list">
+                            <li><a style="background-color: #3F5793;" href=""><i
+                                        class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a style="background-color: #0079C4;" href=""><i
+                                        class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a style="background-color: #01B945;" href=""><i
+                                        class="fa-brands fa-whatsapp"></i></a></li>
+                            <li><a style="background-color: #C91A1F;" href=""><i
+                                        class="fa-brands fa-youtube"></i></a></li>
+                            <li><a style="background: linear-gradient(135deg, #4c5ad1 0%, #ff3756 42%, #ff3e37 60%, #ffd42b 100%);"
+                                    href=""><i class="fa-brands fa-instagram"></i></a></li>
                         </ul>
                     </div>
 
@@ -131,27 +148,9 @@
                     </div>
               
      </header>
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-           
-            
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            
-            <div class="modal-body">
-                <div class="header-search-mobile">
-                    <form class="search-form">
-                        <input type="text" placeholder="Axtar...">
-                        <button><i class="fas fa-search"></i></button>
-                    </form>
-                </div>
-            </div>
-           
-          </div>
-        </div>
-      </div>
+ 
     <!-- Banner Section start -->
-    <section class="banner-section banner-section-2">
+    <section class="banner-section banner-section-second">
        
                     <div class="banner-carousel owl-carousel owl-theme">
                         <div class="slider-item"
@@ -168,7 +167,7 @@
   <section class="services-info-section">
     <div class="container">
         <div class="row justify-content-between">
-            <div class="col-12 d-flex " data-aos="fade-right">
+            <div class="col-12 d-flex" data-aos="fade-right">
                 <div class="section-title">
                     <h5 class="title">  XİDMƏTLƏRİMİZ </h5>
                     <ul class="home-link">
@@ -179,90 +178,89 @@
                     </ul>
                 </div>
             </div>
-            <div class="box-item col-lg-3 mb-3" data-aos="fade-up">
-                <div class="img"> <img src="./images/Group 606.png" alt=""></div>
-
-                <div class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
+            <div class="col-lg-3 col-md-6 col-12 mb-3" data-aos="fade-up">
+                <div class="box-item">
+                 <div class="img"> <img src="./images/Group 606.png" alt=""></div>
+ 
+                 <div class="text">
+                     Lorem ipsum dolor sit amet consectetur adipisicing.
+                 </div>
                 </div>
-            </div>
-            <div class="box-item col-lg-3 mb-3" data-aos="fade-up">
-                <div class="img"> <img src="./images/Group 608.png" alt=""></div>
-
-                <div class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
+             </div>
+             <div class="col-lg-3 col-md-6 col-12 mb-3" data-aos="fade-up">
+                <div class="box-item">
+                 <div class="img"> <img src="./images/Group 608.png" alt=""></div>
+ 
+                 <div class="text">
+                     Lorem ipsum dolor sit amet consectetur adipisicing.
+                 </div>
                 </div>
-            </div>
-            <div class="box-item col-lg-3 mb-3" data-aos="fade-up">
-                <div class="img"> <img src="./images/Group 611.png" alt=""></div>
-
-                <div class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
+             </div>
+             <div class="col-lg-3 col-md-6 col-12 mb-3" data-aos="fade-up">
+                 <div class="box-item">
+                     <div class="img"> <img src="./images/Group 611.png" alt=""></div>
+ 
+                 <div class="text">
+                     Lorem ipsum dolor sit amet consectetur adipisicing.
+                 </div>
+                 </div>
+             </div>
+             <div class="col-lg-3 col-md-6 col-12 mb-3" data-aos="fade-up">
+                <div class="box-item">
+                  <div class="img"> <img src="./images/Path 4174.png" alt=""></div>
+ 
+                 <div class="text">
+                     Lorem ipsum dolor sit amet.
+                 </div>
                 </div>
-            </div>
-            <div class="box-item col-lg-3 mb-3" data-aos="fade-up">
-                <div class="img"> <img src="./images/Path 4174.png" alt=""></div>
-
-                <div class="text">
-                    Lorem ipsum dolor sit amet.
-                </div>
-            </div>
-            <div class="col-md-5 services-image" data-aos="fade-right">
+             </div>
+            <div class="col-md-6 col-12">
+                <div class="services-image" data-aos="fade-right">
                 <img src="./images/chad-montano-gE28aTnlqJA-unsplash.png" alt="services-img">
             </div>
-            <div class="col-md-6 services-text" data-aos="fade-left">
-                <div class="text">
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="services-text" data-aos="fade-left">
+                                    <div class="text">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
                 </div>
             </div>
            
-            <div class="col-md-6 services-text" data-aos="fade-right">
+            <div class="col-md-6 col-12">
+                <div class=" services-text" data-aos="fade-right">
                 <div class="text">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                 </div>
             </div>
-            <div class="col-md-5 services-image" data-aos="fade-left">
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="services-image" data-aos="fade-left">
                 <img src="./images/chad-montano-gE28aTnlqJA-unsplash.png" alt="services-img">
             </div>
-            <div class="col-md-12 services-text">
+            </div>
+            <div class="col-md-12">
+                <div class="services-text">
                 <div class="text">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut distinctio atque cum a, doloremque maxime odio, amet dLorem, ipsum dolor sit amet consectetur adipisicing elit. Aut distinctio atque cum a, doloremque maxime odio, amet dLorem, ipsum dolor sit amet consectetur adipisicing elit. Aut distinctio atque cum a, doloremque maxime odio, amet dignissimos, ex neque possimus voluptates fuga minus animi vel? Blanditiis, nihil. A, iste.</p>
+                </div>
                 </div>
             </div>
         </div>
     </div>
   </section>
 
-  <footer class="general-footer">
+   <!-- footer -->
+ <footer class="general-footer">
     <div class="container">
         <div class="footer-top">
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-block">
-                        <h5 class="footer-block-title">Menyular</h5>
-                        <ul class="nav-list">
-                            <li><a href="./about.html">Haqqqımızda</a></li>
-                            <li><a href="./production.html">İstehsal</a></li>
-                            <li><a href="./services.html..">Xidmətlərimiz</a></li>
-                            <li><a href="./product.html">Məhsullar</a></li>
-                            <li><a href="./partners.html">Partnyorlar</a></li>
-                            <li><a href="./gallery.html">Media Mərkəzi</a></li>
-                            <li><a href="./contact.html">Əlaqə</a></li>
-
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer-block">
-                        <ul class="nav-list">
-                            <li><a href="" class="d-flex">Ünvan: <div class="ms-4">Bakı şəh.</div></a></li>
-                            <li><a href="tel:994 444 44 44" class="d-flex">Telefon : <div class="ms-4">+994 444 44
-                                        44</div></a></li>
-                            <li><a href="mailto:info@gmail.com" class="d-flex">Email : <div class="ms-4">
-                                        info@gmail.com</div> </a></li>
-                           
-                        </ul>
-                        <ul class="footer-social-list">
+                        <a href="./index.html" class="footer-logo">
+                            <img src="./images/Group 8.png" alt="logo">
+                        </a>
+                        <ul class="social-list">
                             <li><a style="background-color: #3F5793;" href=""><i
                                         class="fa-brands fa-facebook-f"></i></a></li>
                             <li><a style="background-color: #0079C4;" href=""><i
@@ -271,16 +269,43 @@
                                         class="fa-brands fa-whatsapp"></i></a></li>
                             <li><a style="background-color: #C91A1F;" href=""><i
                                         class="fa-brands fa-youtube"></i></a></li>
-                            <li><a style="background: linear-gradient(135deg, #4c5ad1 0%, #ff3756 42%, #ff3e37 60%, #ffd42b 100%);" href=""><i
-                                        class="fa-brands fa-instagram"></i></a></li>
+                            <li><a style="background: linear-gradient(135deg, #4c5ad1 0%, #ff3756 42%, #ff3e37 60%, #ffd42b 100%);"
+                                    href=""><i class="fa-brands fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
-               
-              
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-block">
+                        <ul class="nav-list">
+                            <li><a href="./about.html">Haqqqımızda</a></li>
+                            <li><a href="./production.html">İstehsal</a></li>
+                            <li><a href="./services.html">Xidmətlərimiz</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-block">
+                        <ul class="nav-list">
+                            <li><a href="./product.html">Məhsullar</a></li>
+                            <li><a href="./partners.html">Partnyorlar</a></li>
+                            <li><a href="./gallery.html">Media Mərkəzi</a></li>
+                            <li><a href="./contact.html">Əlaqə</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-block">
+                        <ul class="address-list">
+                            <li>Ünvan:<a href="" class="d-flex"> <div class="ms-4">Bakı şəh.</div></a></li>
+                            <li>Telefon :<a href="tel:994 444 44 44" class="d-flex"> <div class="ms-4">+994 444 44
+                                        44</div></a></li>
+                            <li>Email : <a href="mailto:info@gmail.com" class="d-flex"><div class="ms-4">
+                                        info@gmail.com</div> </a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-
         <div class="footer-bottom">
             <div class="row">
                 <div class="col-lg-6">© Copyright 2022 by <a href="https://proton.az/" target="_blank">Proton.az</a>
@@ -289,6 +314,7 @@
         </div>
     </div>
 </footer>
+<!-- footer end -->
     <!-- Jquery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- Bootstrap -->
