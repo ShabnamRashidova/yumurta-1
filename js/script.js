@@ -122,4 +122,3 @@ sidebar_menu.addEventListener("click", (selectedElement) => {
 
 
 
-
